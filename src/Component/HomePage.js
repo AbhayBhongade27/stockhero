@@ -320,7 +320,7 @@ const HomePage = () => {
               </TableHead>
               <TableBody>
                 {rows.map((row) => (
-                  <StyledTableRow key={row.name}>
+                  <StyledTableRow key={row.id}>
                     <StyledTableCell component="th" scope="row">
                       {row.name}
                     </StyledTableCell>

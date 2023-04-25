@@ -16,7 +16,7 @@ const NavBar = () => {
       <div className={click ? "main-container" : ""} onClick={() => Close()} />
       <nav className="navbar" onClick={(e) => e.stopPropagation()}>
         <div className="nav-container">
-          <NavLink exact to="/" className="nav-logo">
+          <NavLink exact="true" to="/" className="nav-logo">
             <span>
               <img
                 src={HeroIcon}
@@ -28,9 +28,9 @@ const NavBar = () => {
           <ul className={click ? "nav-menu active" : "nav-menu"}>
             <li className="nav-item">
               <NavLink
-                exact
+                exact="true"
                 to="/"
-                activeClassName="active"
+                activeclassname="active"
                 className="nav-links"
                 onClick={click ? handleClick : null}
               >
@@ -43,9 +43,9 @@ const NavBar = () => {
             </li>
             <li className="nav-item">
               <NavLink
-                exact
+                exact="true"
                 to="/about"
-                activeClassName="active"
+                activeclassname="active"
                 className="nav-links"
                 onClick={click ? handleClick : null}
               >
