@@ -1,0 +1,343 @@
+.boxcontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 106px;
+  height: 97px;
+}
+.allboxcontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 106px;
+  border-radius: 10px;
+  background-color: #1a1b1b;
+  position: fixed;
+  top: 140px;
+  bottom: 0;
+}
+.firstboxcontainer {
+  background-color: #6842ff;
+  border-radius: 10px;
+}
+.homepagecontainer {
+  margin: 0px;
+  width: 106px;
+  position: sticky;
+  top: 160;
+  z-index: 20;
+}
+.allboxes {
+  display: flex;
+  border-radius: 10px;
+}
+.imgcommon {
+  width: 32px;
+  height: 32px;
+  margin-bottom: 12px;
+}
+.boxcontainerspan {
+  font-size: 13px;
+  font-weight: 500;
+}
+.box {
+  width: 297px;
+  height: 128px;
+  background-color: #0d0d0d;
+}
+.box2 {
+  display: flex;
+  align-items: center;
+  padding-top: 20px;
+  margin-left: 24px;
+}
+.boxp {
+  font-size: 14px;
+}
+.boxh5 {
+  font-size: 28px;
+}
+.textcnt {
+  margin-left: 24px;
+}
+.imgcnt {
+  height: 60px;
+  width: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #161717;
+}
+.imgcommon2 {
+  width: 32px;
+  height: 32px;
+}
+.imgcommon3 {
+  height: 10px;
+  width: 10px;
+  margin-left: 8px;
+}
+.span3 {
+  color: #39d98a;
+  margin-left: 4px;
+}
+.span1 {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.4);
+}
+.spancnt {
+  margin-left: 34px;
+  margin-top: 10px;
+}
+.rstag {
+  margin-left: 8px;
+}
+.boxstudio {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 5rem;
+}
+.ml19 {
+  margin-left: 29px;
+}
+.ml38 {
+  margin-left: 38px;
+}
+.bxcnt {
+  display: block;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.b1 {
+  width: 300px;
+  height: 375px;
+}
+.b2 {
+  width: 284px;
+  height: 462px;
+  margin-top: 40px;
+  background-color: #0d0d0d;
+}
+.Battlegroundhd {
+  font-size: 32px;
+  font-weight: 500;
+  color: #fff;
+  margin-left: 10px;
+}
+.mnbx {
+  width: 300px;
+  height: 375px;
+  background-color: #0d0d0d;
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mnbx2 {
+  width: 284px;
+  height: 375px;
+  background-color: #0d0d0d;
+}
+.viewall {
+  color: #6842ff;
+  text-align: end;
+}
+.viewallspan {
+  font-size: 16px;
+}
+.mt77 {
+  margin-top: 77px;
+}
+.btlcnt {
+  display: flex;
+  align-items: center;
+}
+.mt64 {
+  margin-top: 64px;
+}
+.mt16px {
+  margin-top: 16px;
+}
+.leaderboard {
+  font-weight: 500;
+  font-size: 16px;
+  color: #fff;
+  margin-left: 24px;
+  margin-top: 2rem;
+}
+.contestreferrals {
+  margin-top: 34px;
+  color: #fff;
+}
+.Contests {
+  margin-left: 17px;
+  text-decoration: underline solid #6842ff;
+  text-underline-position: under;
+  text-underline-offset: 13px;
+  text-decoration-thickness: 2px;
+}
+.Referrals {
+  margin: 0 34px;
+}
+.mypostion {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 8rem;
+  margin-bottom: 1rem;
+}
+.h3cnt {
+  display: flex;
+  color: #fff;
+  text-align: center;
+}
+
+/* default styles for the button */
+.btncustom {
+  padding: 10px 20px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  color: #fff;
+}
+
+/* media query for smaller screens */
+@media (max-width: 768px) {
+  .btn {
+    padding: 8px 16px;
+    font-size: 14px;
+  }
+}
+
+.btn-exit {
+  background-color: #ff9b26;
+  color: #000;
+}
+
+.btn-buy {
+  background-color: #39d98a;
+
+  color: #000;
+}
+.btn-sell {
+  background-color: #e53535;
+  color: #000;
+}
+.cmnclr {
+  color: #f44335 !important;
+}
+.cmncellclr {
+  color: rgba(255, 255, 255, 0.6) !important;
+}
+.openparagraph {
+  color: #ffffff;
+  opacity: 0.6;
+  font-weight: 400;
+  font-size: 16px;
+  margin-left: 26px;
+}
+
+.btncnt {
+  display: flex;
+  align-items: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #161717;
+}
+
+.btn-Running {
+  background-color: #454545;
+  color: #fff;
+}
+
+.btn-Brokerage {
+  background-color: #6f2923;
+  color: #fff;
+}
+
+.btn-Gross {
+  background-color: #123929;
+  color: #fff;
+}
+
+.btn-sell,
+.btn-exit,
+.btn-buy :hover {
+  color: #000 !important;
+}
+
+.graphheading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #161717;
+}
+.netspan {
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+}
+.graphContainer {
+  margin-top: 1px;
+}
+
+.btn-dropdown {
+  background-color: #000;
+  color: #fff;
+}
+.advtisementimgContainer {
+  display: flex;
+}
+.imgadd2 {
+  width: 608px;
+  height: 144px;
+}
+
+.btn-instrument {
+  background-color: #2655ff;
+  color: #fff;
+}
+.btn:hover {
+  color: white !important;
+}
+.chartcontainer {
+  padding-bottom: 10rem;
+}
+
+.coin {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  background-color: gold;
+  border: 0.5rem dashed goldenrod;
+  animation: bounce 2s ease-in-out infinite alternate;
+}
+
+.coin:before {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  content: "₹";
+  color: goldenrod;
+  font: 4rem sans-serif;
+}
+
+@keyframes bounce {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(150px);
+  }
+}

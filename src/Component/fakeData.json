@@ -1,0 +1,33 @@
+[
+    {
+      "imgSrc": "Trending",
+      "title": "NIFTY 50",
+      "price": "₹17812.40",
+      "change": "-90.10",
+      "percentChange": "-0.51%"
+    },
+    {
+      "imgSrc": "Trending",
+      "title": "SENSEX",
+      "price": "₹49000.00",
+      "change": "+100.00",
+      "percentChange": "+0.20%"
+    },
+    {
+      "imgSrc": "Trending",
+      "title": "DOW JONES",
+      "price": "$34000.00",
+      "change": "-200.00",
+      "percentChange": "-0.59%"
+    },
+    {
+      "imgSrc": "Trending",
+      "title": "NASDAQ",
+      "price": "$14000.00",
+      "change": "+50.00",
+      "percentChange": "+0.36%"
+    }
+  ]
+  
+
+
