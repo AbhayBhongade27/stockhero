@@ -363,7 +363,7 @@ const HomePage = () => {
 
         {/* --------------------dashboard end here------------------------------------------ */}
         {/* --------------------battelground starthere------------------------------------------ */}
-        <div className="bxcnt ml38 section" id="battleground">
+        <div className="bxcnt ml38 section " id="battleground">
           {boxes.map((box, index) => (
             <div
               className="b1"
@@ -380,7 +380,7 @@ const HomePage = () => {
                             color: "#6842FF",
                             fontSize: "16px",
                             marginTop: "27px",
-                            marginLeft: "15rem",
+                            marginLeft: "10rem",
                           }
                         : {}
                     }
