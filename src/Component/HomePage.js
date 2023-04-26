@@ -250,9 +250,10 @@ const HomePage = () => {
   });
 
   return (
-    <div className="boxstudio">
+    <div className="boxstudio ">
       {/* --------------------sidenavbar starthere------------------------------------------ */}
-      <nav>
+
+      <nav className="">
         <div className="homepagecontainer">
           <div className="allboxcontainer">
             <a
@@ -331,7 +332,7 @@ const HomePage = () => {
       </nav>
       {/* --------------------sidenavbar end here------------------------------------------ */}
       {/* --------------------dashboard starthere------------------------------------------ */}
-      <div>
+      <div className="cardbt">
         <div className="allboxes ml38 section" id="dashboard">
           {dummyData.map((item, index) => (
             <div className={"box" + (index === 0 ? "" : " ml19")} key={item.id}>
@@ -563,7 +564,7 @@ const HomePage = () => {
               options={chartData.options}
               series={chartData.series}
               type="area"
-              width="1248"
+              width="1111"
               height="480"
             />
           </div>
