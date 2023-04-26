@@ -142,6 +142,7 @@
   width: 284px;
   height: 375px;
   background-color: #0d0d0d;
+  color: #fff;
 }
 .viewall {
   color: #6842ff;
@@ -176,10 +177,6 @@
 }
 .Contests {
   margin-left: 17px;
-  text-decoration: underline solid #6842ff;
-  text-underline-position: under;
-  text-underline-offset: 13px;
-  text-decoration-thickness: 2px;
 }
 .Referrals {
   margin: 0 34px;
@@ -340,4 +337,27 @@
   to {
     transform: translateY(150px);
   }
+}
+
+.active-link {
+  background-color: blue;
+}
+
+.sidebar-link.active {
+  background-color: #f0f0f0;
+  border: 4px solid green;
+}
+
+.Contests.active,
+.Referrals.active,
+.Board.active {
+  border-bottom: 2px solid #6842ff;
+}
+
+.nav a.active {
+  background-color: #f00;
+}
+
+.sidebar-link.active {
+  border-bottom: 2px solid red;
 }

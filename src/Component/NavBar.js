@@ -6,17 +6,19 @@ import NavImg from "../Asset/navimg.png";
 import Notificationbell from "../Asset/Notification bell.png";
 import User from "../Asset/./indoor-picture-cheerful-handsome-young-man-having-folded-hands-looking-directly-smiling-sincerely-wearing-casual-clothes.jpg";
 import downArrow from "../Asset/baseline_arrow_drop_down_white_48dp.png";
+
 const NavBar = () => {
   const [click, setClick] = React.useState(false);
 
   const handleClick = () => setClick(!click);
   const Close = () => setClick(false);
+
   return (
     <>
       <div className={click ? "main-container" : ""} onClick={() => Close()} />
       <nav className="navbar" onClick={(e) => e.stopPropagation()}>
         <div className="nav-container">
-          <NavLink exact="true" to="/" className="nav-logo">
+          <NavLink exact={true.toString()} to="/" className="nav-logo">
             <span>
               <img
                 src={HeroIcon}
@@ -28,10 +30,9 @@ const NavBar = () => {
           <ul className={click ? "nav-menu active" : "nav-menu"}>
             <li className="nav-item">
               <NavLink
-                exact="true"
+                exact={true.toString()}
                 to="/"
-                activeclassname="active"
-                className="nav-links"
+                className="nav-links active"
                 onClick={click ? handleClick : null}
               >
                 <img
@@ -43,10 +44,9 @@ const NavBar = () => {
             </li>
             <li className="nav-item">
               <NavLink
-                exact="true"
+                exact={true.toString()}
                 to="/about"
-                activeclassname="active"
-                className="nav-links"
+                className="nav-links active"
                 onClick={click ? handleClick : null}
               >
                 <span>
